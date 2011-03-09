@@ -1,2 +1,0 @@
-class PlayerClass:
-    name = 
