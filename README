@@ -1,3 +1,4 @@
 This is a framework and not a complete system, and far from a game. It is intended to be incorporated into roleplaying/strategy games.
 
-It is developed in mainly JavaScript, and intended be embedded into C++ using Google V8 Javascript engine.
+This is the Python branch of the same project. I do not expect to update this branch anytime soon, but I might change my mind.
+
