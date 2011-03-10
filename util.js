@@ -10,12 +10,21 @@
 //and start numbering from 0
 function ArrayToEnum(arr)
 {
-    var len = arr.lenght;
+    var len = arr.length;
     var en = {};
     for(i=0;i<len;i++)
         en[arr[i]]=i;
     return en;
 }
 
+//test the functionality
+function deneme()
+{
+    a=['zero','one','two'];
+    b=ArrayToEnum(a);
 
+    console.debug(b.one);
+}
+
+//window.onload=deneme;
 
