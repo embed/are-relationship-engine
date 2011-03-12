@@ -1,3 +1,5 @@
+%toc
+
 = Design Document =
 This document explains my example implementation of the engine. The specific can and will change.
 == General Ideas ==
