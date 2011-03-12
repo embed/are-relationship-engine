@@ -1,0 +1,16 @@
+= TODO =
+* [ ] Characters
+  * [ ] Create Class
+  * [ ] Random Generator 
+* [ ]  Attribs
+  * [ ] Make lists
+  * [ ] Write extended definition
+  * [ ] Flexible way to extend
+* [ ] Game
+  * [ ] Basic logic
+  * [ ] Random events
+    * [ ] Input events
+    * [ ] Output events 
+  * [ ] Random dialogues
+  * [ ] GUI!
+* [ ] Documentation! 
