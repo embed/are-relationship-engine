@@ -1,0 +1,27 @@
+%toc
+
+= Design Document =
+This document explains my example implementation of the engine. The specific can and will change.
+== General Ideas ==
+The design assumes there is at least one player character(PC) and several non-player characters(NPC). In addition to the practical attributes of the characters, they a multitude of social attributes. These are explained below.
+
+== Attribute types: ==
+In addition to the physical attributes like age, race, gender; the PC and NPCs have two main types of Attributes. These are called **Traits** and **Tags**. Trait are the ones that define the character's behaviour. On the other hand, tags are what others see when they look at the charater. 
+
+=== Traits ===
+Traits are the very essence of the character. They define how she behaves and what her motivations are. These may or may not be known to others. Here or some example traits:  
+Shy, racist, sexist, aggressive, religious, heterosexual, homosexual, empathic, orphan, noble, pariah, friendly, etc.
+
+There can be unlimited number of traits. To add even more complexity, traits can even have degrees. For now, this model assumes the traits are boolean, they either are or not.
+
+=== Tags ===
+Tags are what others know/think about a character. These are well known attributes that are open to everybody. They may not be true, but they ultimately define how others react to these characters. 
+some example tags are:  
+Slave, traitor, unreliable, hero, homosexual, racist etc.
+
+As you can see, some traits can also be tags, or vice versa. An example would be a homosexual character who doesn't hide her orientation.
+
+=== Sensitivity ===
+Every character is sensitive to some tags. Sensitivities are a special for of traits. For example, a homophobic character will be negatively sensitive to homosexuals. A religious person can be positive to the followers of the same religion. These define the attitude adjustments directly.
+
+
