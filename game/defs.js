@@ -18,6 +18,12 @@ function are_init()
     var arrTraits=['RACIST','SEXIST','HOMOPHOBE','HETEROPHOB','CASTIST+','SHY','NOBLE','CROOK','CRIPPLED+','ORPHAN','SLAVE','EMPATHIC','CHARISMATIC','RELIGIOUS'];
     ENUM.TRAIT=ArrayToEnum(arrTraits);
     arrTraits=null;
+
+    //RPG Classes
+    var arrCharClasses=['BRAWLER','ARCHER','RANGER','WIZARD','ROGUE'];
+    ENUM.CCLASS=ArrayToEnum(arrCharClasses);
+    arrCharClasses=null;
+
 }
 
 
