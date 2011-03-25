@@ -24,6 +24,16 @@ function are_init()
     ENUM.CCLASS=ArrayToEnum(arrCharClasses);
     arrCharClasses=null;
 
+    //Example races
+    var arrCharRaces=['RED','GREEN','BLUE']//=['KARTAL','MALTEPE','PENDIK'];
+    ENUM.RACE=ArrayToEnum(arrCharRaces);
+    arrCharRaces=null;
+
+    //Example religions
+    var arrReligions=['NONE','FUSILLI','SPAGHETTI','PENNE'];
+    ENUM.RELIGION=ArrayToEnum(arrReligions);
+    arrReligions=null;
+
 }
 
 
