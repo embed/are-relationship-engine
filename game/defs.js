@@ -5,6 +5,8 @@
 //global object to store enums
 var ENUM={};
 
+
+
 function are_init()
 {
     //Relationship types
@@ -20,7 +22,7 @@ function are_init()
     arrTraits=null;
 
     //RPG Classes
-    var arrCharClasses=['BRAWLER','ARCHER','RANGER','WIZARD','ROGUE'];
+    var arrCharClasses=['BRAWLER','ARCHER','SCOUT','WIZARD','ROGUE'];
     ENUM.CCLASS=ArrayToEnum(arrCharClasses);
     arrCharClasses=null;
 
@@ -33,6 +35,11 @@ function are_init()
     var arrReligions=['NONE','FUSILLI','SPAGHETTI','PENNE'];
     ENUM.RELIGION=ArrayToEnum(arrReligions);
     arrReligions=null;
+
+    //Gender
+    var arrGender=['MALE','FEMALE'];//simplest list
+    ENUM.GENDER=ArrayToEnum(arrGender);
+
 
 }
 
