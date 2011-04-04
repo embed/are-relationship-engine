@@ -1,0 +1,62 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+<title>design</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<div class="toc">
+<ul>
+<li><a href="#toc_1">Design Document</a></li>
+<ul>
+<li><a href="#toc_1.1">General Ideas</a></li>
+<li><a href="#toc_1.2">Attribute types:</a></li>
+<ul>
+<li><a href="#toc_1.2.1">Traits</a></li>
+<li><a href="#toc_1.2.2">Tags</a></li>
+<li><a href="#toc_1.2.3">Sensitivity</a></li>
+</ul>
+</ul>
+</ul>
+</div>
+
+<h1 id="toc_1">Design Document</h1>
+<p>
+This document explains my example implementation of the engine. The specific can and will change.
+<h2 id="toc_1.1">General Ideas</h2>
+The design assumes there is at least one player character(PC) and several non-player characters(NPC). In addition to the practical attributes of the characters, they a multitude of social attributes. These are explained below.
+</p>
+
+<h2 id="toc_1.2">Attribute types:</h2>
+<p>
+In addition to the physical attributes like age, race, gender; the PC and NPCs have two main types of Attributes. These are called *<strong>Traits</strong>* and *<strong>Tags</strong>*. Trait are the ones that define the character's behaviour. On the other hand, tags are what others see when they look at the charater. 
+</p>
+
+<h3 id="toc_1.2.1">Traits</h3>
+<p>
+Traits are the very essence of the character. They define how she behaves and what her motivations are. These may or may not be known to others. Here or some example traits:  
+Shy, racist, sexist, aggressive, religious, heterosexual, homosexual, empathic, orphan, noble, pariah, friendly, etc.
+</p>
+
+<p>
+There can be unlimited number of traits. To add even more complexity, traits can even have degrees. For now, this model assumes the traits are boolean, they either are or not.
+</p>
+
+<h3 id="toc_1.2.2">Tags</h3>
+<p>
+Tags are what others know/think about a character. These are well known attributes that are open to everybody. They may not be true, but they ultimately define how others react to these characters. 
+some example tags are:  
+Slave, traitor, unreliable, hero, homosexual, racist etc.
+</p>
+
+<p>
+As you can see, some traits can also be tags, or vice versa. An example would be a homosexual character who doesn't hide her orientation.
+</p>
+
+<h3 id="toc_1.2.3">Sensitivity</h3>
+<p>
+Every character is sensitive to some tags. Sensitivities are a special for of traits. For example, a homophobic character will be negatively sensitive to homosexuals. A religious person can be positive to the followers of the same religion. These define the attitude adjustments directly.
+</p>
+
+</body>
+</html>
