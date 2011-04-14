@@ -1,2 +1,3 @@
 [[todo][TODO list]]
 [[design][Design document]]
+[[game][Sample Game]]

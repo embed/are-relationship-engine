@@ -1,0 +1,33 @@
+= Sample Game =
+%toc
+
+The first(and only?) sample game takes place in a generic, medieval-like setting. There are also superhuman abilities and magic, similar to many roleplaying games. The gameplay tends towards basic strategy, but mainly focusing on relationships among main characters to shocase the engine.
+
+== Setting ==
+
+The setting is generic and familiar to many RP gamers. The technology is roughly equivalent to Medieval Europe. There are some more details to follow. We will first explain the characters.
+
+=== Characters ===
+
+Characters are defined in terms of different aspects. They have a race, a gender, a class and a collection of traits.
+
+==== Races ====
+
+There are three races of people, named RED, GREEN and BLUE. A fourth meta-race HYBRID exists for mixed races. It is assumed thet the race of a person is apparent from their looks. For simplicity, HYBRID people are just HYBRID, and there is no telling their genetic legacy for sure.
+
+A randomly created character will have a race, with a non-equal probabily. A world with majority and minority races will handle racist traits and problems more realisticly. 
+
+==== Character Classes ====
+
+For simplicity, there are a limited number of classes, each with their unique strengths and weaknesses. They are found in different frequencies.
+
+ * Brawler: Most common class. Expert in close combat, be it hand-to-hand or melee weapons. Limited ability with ranged weapons, weak in special skills. 
+ * Archer: Similar to brawler, but expert in ranged combat. Strategically, a good support unit but not ideal for the bulk of an army. Limited close combat ability.
+ * Strider: Stealth expert. Ideal for theft, scouting, stalking, assassination and ambush. Limited close and ranged combat ability.
+ * Rogue: Master of deception. Diplomat, trader, infiltrator, smuggler, information gatherer, gambler.
+ * Wizard: Very rare and dangerous, even for themself and their allies. Weak on almost every skill other than their specialty. Command mysterious and great powers which can cause disasters when they are not controlled properly. The need to continuosly struggle with their ability usually makes them emotionally and mentally unstable. A good wizard is an invaluable support in combat but also able to take care of themself.
+ 
+ ==== Gender and Sexuality ====
+ Bilogically all characters are either male or female. Complex gender identities are ignored for simplicity but they can be implemented.
+ 
+ Orientation is more flexible to induce variety. A character can have HETEROSEXUAL  or HOMOSEXUAL trait, also both or none of them. This aims to create complex and diverse relatioships.
