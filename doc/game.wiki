@@ -27,7 +27,11 @@ For simplicity, there are a limited number of classes, each with their unique st
  * Rogue: Master of deception. Diplomat, trader, infiltrator, smuggler, information gatherer, gambler.
  * Wizard: Very rare and dangerous, even for themself and their allies. Weak on almost every skill other than their specialty. Command mysterious and great powers which can cause disasters when they are not controlled properly. The need to continuosly struggle with their ability usually makes them emotionally and mentally unstable. A good wizard is an invaluable support in combat but also able to take care of themself.
  
- ==== Gender and Sexuality ====
+==== Gender and Sexuality ====
  Bilogically all characters are either male or female. Complex gender identities are ignored for simplicity but they can be implemented.
  
  Orientation is more flexible to induce variety. A character can have HETEROSEXUAL  or HOMOSEXUAL trait, also both or none of them. This aims to create complex and diverse relatioships.
+
+==== Religion ====
+This will most probably change. There are currently four mandatory and mutually exclusive religins:
+NONE, FUSILLI, SPAGHETTI and PENNE.
